@@ -59,10 +59,17 @@ nav .menu {
 }
 
 .banner-content {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0; /* Вирівнювання тексту по лівому краю */
+    transform: translateY(-50%); /* Вертикальне вирівнювання по центру */
+    color: #fff; /* Білий текст для контрасту */
+    padding: 10px; /* Додати відступи для тексту */
+    background: none; /* Прибрати напівпрозорий фон */
+    border-radius: 0; /* Прибрати округлення */
+    text-align: left; /* Вирівнювання тексту по лівому краю */
 }
+
 
 
 nav .menu a {
