@@ -49,6 +49,22 @@ nav .menu {
     gap: 20px;
 }
 
+.banner {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.banner img {
+    object-fit: cover;
+}
+
+.banner-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
 nav .menu a {
     color: #000;
     text-decoration: none;
