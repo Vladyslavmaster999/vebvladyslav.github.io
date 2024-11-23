@@ -61,7 +61,7 @@ nav .menu {
 
 .banner-content {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 0; /* Вирівнювання тексту по лівому краю */
     transform: translateY(-50%); /* Вертикальне вирівнювання по центру */
     color: #fff; /* Білий текст для контрасту */
