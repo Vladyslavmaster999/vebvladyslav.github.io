@@ -263,7 +263,62 @@
             </div>
          </section>
          <!-- Quick links Section end -->
+
+    <div class="countdown-container">
+        <div class="countdown-header">До нової автівки:</div>
+        <div class="countdown">
+            <div>
+                <span id="days">0</span>
+                днів
+            </div>
+            <div>
+                <span id="hours">0</span>
+                годин
+            </div>
+            <div>
+                <span id="minutes">0</span>
+                хвилин
+            </div>
+            <div>
+                <span id="seconds">0</span>
+                секунд
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Встановлюємо дату завершення
+        const countdownDate = new Date("2024-12-31T00:00:00").getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
+
+            if (distance < 0) {
+                document.querySelector(".countdown-header").innerHTML = "Час вийшов!";
+                document.querySelector(".countdown").style.display = "none";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").textContent = days;
+            document.getElementById("hours").textContent = hours;
+            document.getElementById("minutes").textContent = minutes;
+            document.getElementById("seconds").textContent = seconds;
+        }
+
+        setInterval(updateCountdown, 1000);
+
+
+
+
       </main>
+
+
       <!-- Footer start -->
       <footer>
          <p> &copy; 2024 BMW</p>
