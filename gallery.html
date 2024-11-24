@@ -38,16 +38,29 @@
   <!-- Header end -->
 
   <main class="container">
-    <!-- Owl Carousel for images or videos -->
-    <div class="owl-carousel owl-theme">
-    <div class="item">
-        <img src="images/bmw1.jpg" alt="Image 1">
+  <div class="row">
+    <!-- Карусель із фото -->
+    <div class="col-md-6">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="images/bmw1.jpg" alt="Image 1">
+        </div>
+        <div class="item">
+          <img src="images/bmw3.jpg" alt="Image 2">
+        </div>
+      </div>
     </div>
-    <div class="item">
-        <img src="images/bmw3.jpg" alt="Image 2">
+
+    <!-- Блок для погоди -->
+    <div class="col-md-6">
+      <div id="weather" style="text-align: center; padding: 20px; background-color: #f8f9fa; border-radius: 10px;">
+        <h3>Погода у Львові</h3>
+        <p id="weather-data">Завантаження...</p>
+      </div>
     </div>
-</div>
-  </main>
+  </div>
+</main>
+
 
   <!-- Footer start -->
     <footer>
