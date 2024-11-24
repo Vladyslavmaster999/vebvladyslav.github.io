@@ -282,5 +282,28 @@ footer a:hover {
     color: #0078d4;
 }
 
+#subscribe {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+#subscribe h2 {
+    color: #0078d4;
+    margin-bottom: 15px;
+}
+
+#subscribe p {
+    margin-bottom: 20px;
+}
+
+#subscription-form {
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+}
 
 
