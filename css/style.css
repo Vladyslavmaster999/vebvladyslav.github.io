@@ -307,6 +307,13 @@ footer a:hover {
 }
 
 
+@media (max-width: 768px) {
+  .owl-carousel,
+  #meteo_informer_8d803d31d1cb665411c9301074b33ed7 {
+    margin-bottom: 20px;
+  }
+}
+
 <style>
   .owl-carousel .item img {
     width: 100%;
