@@ -255,7 +255,7 @@ footer a:hover {
     position: absolute;
     top: 80%;
     left: 0; /* Вирівнювання тексту по лівому краю */
-    transform: translateY(-50%); /* Вертикальне вирівнювання по центру */
+    transform: translateY(20px); /* Вертикальне вирівнювання по центру */
     color: #fff; /* Білий текст для контрасту */
     padding: 10px; /* Додати відступи для тексту */
     background: none; /* Прибрати напівпрозорий фон */
