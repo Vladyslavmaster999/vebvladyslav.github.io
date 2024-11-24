@@ -253,7 +253,7 @@ footer a:hover {
 .banner-content {
     opacity: 0;
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 0; /* Вирівнювання тексту по лівому краю */
     transform: translateY(20px); /* Вертикальне вирівнювання по центру */
     color: #fff; /* Білий текст для контрасту */
