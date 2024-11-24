@@ -117,28 +117,33 @@
 </section>
 
 
-         <!-- Subscription Button start -->
-         <button type="button" class="btn btn-red" data-bs-toggle="modal" data-bs-target="#exampleModal">Підписатися</button>
-         <!-- Subscription Button end -->
-         <!-- Modal start -->
-         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h1 class="modal-title fs-5" id="exampleModalLabel">Вітаю , ви підписалися.</h1>
-                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                     З продажу кожної автівки ми перераховуємо 50 000 гривень на фандрейзингову платформу UNITED24.
-                  </div>
-                  <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
-                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Гаразд</button>
-                  </div>
-               </div>
+        <!-- Кнопка для відкриття модального вікна -->
+<button type="button" class="btn btn-red" data-bs-toggle="modal" data-bs-target="#subscriptionModal">Підписатися</button>
+
+<!-- Модальне вікно -->
+<div class="modal fade" id="subscriptionModal" tabindex="-1" aria-labelledby="subscriptionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="subscriptionModalLabel">Введіть вашу електронну пошту</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-         </div>
-         <!-- Modal end -->
+            <div class="modal-body">
+                <form id="subscriptionForm">
+                    <div class="mb-3">
+                        <label for="emailInput" class="form-label">Електронна пошта</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="example@example.com" required>
+                        <div class="invalid-feedback">
+                            Будь ласка, введіть правильну електронну пошту.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Підписатися</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
          <!-- Quick links Section start -->
 
          <!-- Quick links Section end -->
