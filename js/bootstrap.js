@@ -42,29 +42,4 @@ document.getElementById("subscription-form").addEventListener("submit", function
 });
 
 
-<script>
-  const apiKey = '95f33c9ceed51bf682faca910431535e'; // Ваш API-ключ OpenWeatherMap
-  const city = 'Lviv';
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=uk&appid=${apiKey}`;
-
-  async function fetchWeather() {
-    try {
-      const response = await fetch(apiUrl);
-      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-      const data = await response.json();
-      const weatherInfo = `
-        <p><strong>Температура:</strong> ${data.main.temp}°C</p>
-        <p><strong>Опис:</strong> ${data.weather[0].description}</p>
-        <p><strong>Вологість:</strong> ${data.main.humidity}%</p>
-        <p><strong>Вітер:</strong> ${data.wind.speed} м/с</p>
-      `;
-      document.getElementById('weather-data').innerHTML = weatherInfo;
-    } catch (error) {
-      console.error('Помилка завантаження погоди:', error);
-      document.getElementById('weather-data').innerHTML = 'Не вдалося завантажити погоду.';
-    }
-  }
-
-  fetchWeather();
-</script>
 
