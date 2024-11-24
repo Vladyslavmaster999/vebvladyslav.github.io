@@ -307,19 +307,4 @@ footer a:hover {
 }
 
 
-  .owl-carousel .item img {
-    max-width: 100%; /* Забезпечує пропорційне зменшення */
-    width: 150px !important; /* Встановіть бажаний розмір зображення */
-    height: auto;
-    display: block;
-    float: left !important; /* Розташування зображень ліворуч */
-    margin: 10px; /* Додатковий відступ між зображеннями */
-    margin-right: 10px !important;
-  }
-
-  .owl-carousel .item {
-    display: flex;
-    align-items: center; /* Центрування вертикально, якщо потрібно */
-    justify-content: flex-start; /* Вирівнювання вмісту ліворуч */
-  }
 
