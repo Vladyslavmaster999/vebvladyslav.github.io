@@ -268,3 +268,19 @@ footer a:hover {
     opacity: 1;
     transform: translateY(0);
 }
+
+#timer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#countdown {
+    font-weight: bold;
+    color: #0078d4;
+}
+
+
+
