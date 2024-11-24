@@ -242,9 +242,16 @@ footer a:hover {
 
 .banner img {
     object-fit: cover;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.banner:hover img {
+    transform: scale(1.1); /* Збільшує зображення */
+    filter: brightness(80%); /* Робить зображення темнішим */
 }
 
 .banner-content {
+    opacity: 0;
     position: absolute;
     top: 80%;
     left: 0; /* Вирівнювання тексту по лівому краю */
@@ -254,4 +261,10 @@ footer a:hover {
     background: none; /* Прибрати напівпрозорий фон */
     border-radius: 0; /* Прибрати округлення */
     text-align: left; /* Вирівнювання тексту по лівому краю */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.banner:hover .banner-content {
+    opacity: 1;
+    transform: translateY(0);
 }
