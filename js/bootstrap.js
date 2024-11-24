@@ -26,3 +26,31 @@ setInterval(updateTimer, 1000);
 
 // Перший запуск
 updateTimer();
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const subscriptionForm = document.getElementById('subscriptionForm');
+    const emailInput = document.getElementById('emailInput');
+
+    subscriptionForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Перевірка валідності пошти
+        if (emailInput.checkValidity()) {
+            alert(`Дякуємо за підписку! На ${emailInput.value} буде відправлено підтвердження.`);
+            emailInput.value = ''; // Очищення поля
+            bootstrap.Modal.getInstance(document.getElementById('subscriptionModal')).hide(); // Закриття модального вікна
+        } else {
+            emailInput.classList.add('is-invalid');
+        }
+    });
+
+    // При зміні введення очищаємо повідомлення про помилку
+    emailInput.addEventListener('input', function () {
+        emailInput.classList.remove('is-invalid');
+    });
+});
+</script>
+
+
+
