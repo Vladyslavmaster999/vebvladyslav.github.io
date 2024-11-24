@@ -43,7 +43,7 @@ document.getElementById("subscription-form").addEventListener("submit", function
 
 
 </script>
-  const apiKey = '95f33c9ceed51bf682faca910431535e'; // Отримайте API-ключ з OpenWeatherMap
+  const apiKey = 'b7eb6032b74b0574e0e025ebd241851c'; // Отримайте API-ключ з OpenWeatherMap
   const city = 'Lviv';
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=uk&appid=${apiKey}`;
 
