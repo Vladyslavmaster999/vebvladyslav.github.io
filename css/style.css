@@ -315,10 +315,13 @@ footer a:hover {
 }
 
 <style>
-  .owl-carousel .item img {
-    width: 100%;
-    border-radius: 10px;
-  }
+.owl-carousel .item img {
+    width: 100%; /* Ширина 100% від контейнера */
+    height: auto; /* Автоматичне співвідношення висоти */
+    max-height: 300px; /* Максимальна висота для обмеження розміру */
+    object-fit: cover; /* Заповнення блоку, збереження пропорцій */
+    border-radius: 10px; /* Заокруглені кути */
+}
 
  
 </style>
