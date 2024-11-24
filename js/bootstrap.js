@@ -1,3 +1,5 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
 // Встановлюємо кінцеву дату таймера
 const targetDate = new Date("2024-12-31T23:59:59").getTime();
 
@@ -27,8 +29,6 @@ setInterval(updateTimer, 1000);
 // Перший запуск
 updateTimer();
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
     const subscriptionForm = document.getElementById('subscriptionForm');
     const emailInput = document.getElementById('emailInput');
 
