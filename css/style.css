@@ -306,7 +306,7 @@ footer a:hover {
     width: 100%;
 }
 
-<style>
+
   .owl-carousel .item img {
     max-width: 100%; /* Забезпечує пропорційне зменшення */
     width: 150px; /* Встановіть бажаний розмір зображення */
@@ -321,4 +321,4 @@ footer a:hover {
     align-items: center; /* Центрування вертикально, якщо потрібно */
     justify-content: flex-start; /* Вирівнювання вмісту ліворуч */
   }
-</style>
+
