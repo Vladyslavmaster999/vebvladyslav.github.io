@@ -306,3 +306,11 @@ footer a:hover {
     width: 100%;
 }
 
+<style>
+  .owl-carousel .item img {
+    width: 200px; /* Зменшує розмір зображення */
+    height: auto; /* Зберігає пропорції */
+    float: left; /* Вирівнює зображення ліворуч */
+    margin-right: 15px; /* Відступ справа для тексту або інших елементів */
+  }
+</style>
