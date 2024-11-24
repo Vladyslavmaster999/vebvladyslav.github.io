@@ -1,5 +1,4 @@
-<script>
-document.addEventListener('DOMContentLoaded', function () {
+
 // Встановлюємо кінцеву дату таймера
 const targetDate = new Date("2024-12-31T23:59:59").getTime();
 
@@ -29,28 +28,4 @@ setInterval(updateTimer, 1000);
 // Перший запуск
 updateTimer();
 
-    const subscriptionForm = document.getElementById('subscriptionForm');
-    const emailInput = document.getElementById('emailInput');
-
-    subscriptionForm.addEventListener('submit', function (e) {
-        e.preventDefault();
-
-        // Перевірка валідності пошти
-        if (emailInput.checkValidity()) {
-            alert(`Дякуємо за підписку! На ${emailInput.value} буде відправлено підтвердження.`);
-            emailInput.value = ''; // Очищення поля
-            bootstrap.Modal.getInstance(document.getElementById('subscriptionModal')).hide(); // Закриття модального вікна
-        } else {
-            emailInput.classList.add('is-invalid');
-        }
-    });
-
-    // При зміні введення очищаємо повідомлення про помилку
-    emailInput.addEventListener('input', function () {
-        emailInput.classList.remove('is-invalid');
-    });
-});
-</script>
-
-
-
+   
