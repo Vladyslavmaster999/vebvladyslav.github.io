@@ -181,19 +181,6 @@ input, select, textarea, button {
   font-family: 'Roboto Condensed', sans-serif !important;
 }
 
-<style>
-  .meteo-wrapper {
-    width: 100%;
-    min-height: 222px;
-    background-color: #2B2B2B;
-    color: #FFFFFF;
-    padding: 10px;
-    border-radius: 8px;
-    border: 2px solid #FFFFFF;
-  }
-</style>
-
-
 
 /* Footer Styles */
 footer {
