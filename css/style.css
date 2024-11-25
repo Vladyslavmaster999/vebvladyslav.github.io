@@ -182,23 +182,24 @@ input, select, textarea, button {
 }
 
 <style>
-        .meteo-informer {
-          width: 100%;
-          min-height: 222px;
-          border-color: #2B2B2B;
-          background-color: #2B2B2B;
-          color: #FFFFFF;
-          font-family: Arial, sans-serif;
-        }
-        .meteo-informer__cell,
-        .meteo-informer__interval-night {
-          border-bottom-color: #FFFFFF;
-        }
-        .meteo-informer__cell-info,
-        .meteo-informer__cell-logo {
-          border-bottom-color: #2B2B2B;
-        }
-      </style>
+  .meteo-informer {
+    width: 100%;
+    min-height: 222px;
+    border-color: #2B2B2B;
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+  }
+  .meteo-informer__cell,
+  .meteo-informer__interval-night {
+    border-bottom-color: #FFFFFF;
+  }
+  .meteo-informer__cell-info,
+  .meteo-informer__cell-logo {
+    border-bottom-color: #2B2B2B;
+  }
+</style>
+
 
 /* Footer Styles */
 footer {
