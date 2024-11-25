@@ -324,6 +324,11 @@ footer a:hover {
     margin: 0 auto; /* Вирівнювання по центру */
 }
 
-
- 
 </style>
+
+.roboto-condensed-<uniquifier> {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
