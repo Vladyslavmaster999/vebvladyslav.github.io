@@ -52,14 +52,29 @@
     </div>
 
     <!-- Права частина: Погода -->
-   <div class="col-md-4">
-  <h3 class="text-center">Погода у Львові</h3>
-  <div class="meteo-wrapper">
-    <script async type="text/javascript" charset="utf-8" src="https://meteo.ua/informer-8d803d31d1cb665411c9301074b33ed7"></script>
-  </div>
-</div>
-
-
+    <div class="col-md-4">
+      <h3 class="text-center">Погода у Львові</h3>
+      <div id="meteo_informer_8d803d31d1cb665411c9301074b33ed7" class="mt-3"></div>
+      <style>
+        .meteo-informer {
+          width: 100%;
+          min-height: 222px;
+          border-color: #2B2B2B;
+          background-color: #2B2B2B;
+          color: #FFFFFF;
+          font-family: Arial, sans-serif;
+        }
+        .meteo-informer__cell,
+        .meteo-informer__interval-night {
+          border-bottom-color: #FFFFFF;
+        }
+        .meteo-informer__cell-info,
+        .meteo-informer__cell-logo {
+          border-bottom-color: #2B2B2B;
+        }
+      </style>
+      <script async type="text/javascript" charset="utf-8" src="https://meteo.ua/informer-8d803d31d1cb665411c9301074b33ed7"></script>
+    </div>
   </div>
 </main>
 
