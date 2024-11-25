@@ -181,6 +181,23 @@ input, select, textarea, button {
   font-family: 'Roboto Condensed', sans-serif !important;
 }
 
+@media (max-width: 768px) {
+    .weather-container {
+        margin: 10px; /* Зменшує зовнішні відступи */
+    }
+}
+
+@media (max-width: 576px) {
+    .weather-container {
+        max-width: 100%; /* Ширина займає весь екран */
+        padding: 10px; /* Менший відступ */
+    }
+
+    .weather-container h3 {
+        font-size: 16px; /* Зменшує розмір заголовка */
+    }
+}
+
 
 /* Погода */
 .meteo-informer {
@@ -202,7 +219,19 @@ input, select, textarea, button {
   border-bottom-color: #2B2B2B;
 }
 
-
+.weather-container {
+    display: flex;
+    flex-direction: column; /* Ставить елементи вертикально */
+    align-items: center; /* Центрує елементи по горизонталі */
+    justify-content: center; /* Центрує елементи по вертикалі */
+    padding: 20px;
+    background-color: #f9f9f9; /* Світлий фон */
+    border-radius: 8px; /* Округлені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    margin: 20px auto; /* Відступи згори/знизу */
+    max-width: 400px; /* Обмежує ширину контейнера */
+    width: 100%; /* Розтягується до ширини екрана */
+}
 
 /* Footer Styles */
 footer {
