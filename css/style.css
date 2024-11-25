@@ -231,6 +231,7 @@ input, select, textarea, button {
     margin: 20px auto; /* Відступи згори/знизу */
     max-width: 400px; /* Обмежує ширину контейнера */
     width: 100%; /* Розтягується до ширини екрана */
+    max-width: 100%;
 }
 
 /* Footer Styles */
