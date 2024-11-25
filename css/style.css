@@ -177,6 +177,11 @@ input, select, textarea, button {
     font-weight: 600;
 }
 
+.custom-text {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
 /* Footer Styles */
 footer {
     background-color: #f3f3f3;
