@@ -1,11 +1,12 @@
-$(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            items: 1,
-            loop: true,
-            margin: 10,
-            autoplay: false,
-            autoplayTimeout: 3000,
-            nav: true,
-            dots: true
-        });
+$(document).ready(function() {
+
+    $(".owl-carousel").owlCarousel({
+        items: 1,              // Кількість елементів (зображень) для показу одночасно в каруселі
+        loop: true,            // Дозволяє каруселі зациклюватися (після останнього елемента переходить до першого)
+        margin: 10,            // Відстань між елементами в каруселі (10 пікселів)
+        autoplay: false,       // Автоматичне прокручування каруселі вимкнено (true включить)
+        autoplayTimeout: 3000, // Інтервал автопрокручування (3000 мс = 3 секунди)
+        nav: true,             // Включає навігаційні кнопки (вперед/назад)
+        dots: true             // Відображає точки для індикації позиції каруселі
     });
+});
