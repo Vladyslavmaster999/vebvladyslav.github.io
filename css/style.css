@@ -94,14 +94,6 @@ h2 {
     max-width: 500px;
 }
 
-/* Image Container */
-.image-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
 .centered-image {
     max-width: 100%;
     height: auto;
