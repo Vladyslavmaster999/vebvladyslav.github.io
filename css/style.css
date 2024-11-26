@@ -234,6 +234,8 @@ input, select, textarea, button {
     max-width: 100%;
 }
 
+ 
+
 /* Footer Styles */
 footer {
     background-color: #f3f3f3;
@@ -321,6 +323,15 @@ footer a:hover {
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    font-size: 24px;
+}
+
 .banner:hover .banner-content {
     opacity: 1;
     transform: translateY(0);
@@ -395,4 +406,14 @@ footer a:hover {
         top: 35%; /* Ще трохи вище для менших екранів */
         transform: translate(-50%, -35%);
     }
+    .banner-content h1 {
+        font-size: 24px; /* Зменшення розміру заголовка на банері */
+    }
+
+    .banner-content p {
+        font-size: 16px; /* Зменшення розміру опису */
+    }
 }
+
+}
+
