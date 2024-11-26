@@ -376,7 +376,6 @@ input, select, textarea, button {
     width: 100%;
 }
 
-<style>
 .owl-carousel .item img {
     width: 60%; /* Ширина зображення буде 50% від контейнера */
     height: auto; /* Автоматичне співвідношення висоти */
@@ -390,7 +389,7 @@ input, select, textarea, button {
     max-width: 300px; /* Встановлюємо максимальну ширину каруселі */
     margin: 0 auto; /* Центруємо карусель */
 }
-</style>
+
 
 /* Footer Styles */
 footer {
