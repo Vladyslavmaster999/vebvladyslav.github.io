@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Стилі для тіла сторінки */
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f3f3f3;
@@ -11,19 +12,20 @@ body {
     line-height: 1.6;
 }
 
-/* Container */
+/* Контейнер для обмеження ширини контенту */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Header Styles */
+/* Стилі для header */
 header {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* Контейнер для header */
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -38,7 +40,7 @@ h1 {
     font-weight: 600;
 }
 
-/* Navigation Menu */
+/* Стилі для навігаційного меню */
 nav .menu {
     list-style: none;
     display: flex;
@@ -56,7 +58,7 @@ nav .menu a:hover {
     color: #0078d4;
 }
 
-/* Section Styles */
+/* Стилі для секцій */
 .section {
     background-color: #fff;
     border-radius: 4px;
@@ -71,24 +73,47 @@ h2 {
     font-size: 28px;
 }
 
+#subscribe {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+#subscribe h2 {
+    color: #0078d4;
+    margin-bottom: 15px;
+}
+
+#subscribe p {
+    margin-bottom: 20px;
+}
+
+#subscription-form {
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+}
+
 /* Feedback and Form Styles */
-.feedback-form {
+.subscribe-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 100%;
+    max-width: 500px;
 }
 
-.feedback-container, .price-container {
+.subscribe-container, .subscribe-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
 
-.feedback-form {
-    width: 100%;
-    max-width: 500px;
-}
+
 
 .centered-image {
     max-width: 100%;
@@ -294,29 +319,6 @@ input, select, textarea, button {
     color: #0078d4;
 }
 
-#subscribe {
-    text-align: center;
-    padding: 30px;
-    background-color: #f9f9f9;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 30px;
-}
-
-#subscribe h2 {
-    color: #0078d4;
-    margin-bottom: 15px;
-}
-
-#subscribe p {
-    margin-bottom: 20px;
-}
-
-#subscription-form {
-    display: inline-block;
-    max-width: 500px;
-    width: 100%;
-}
 
 .owl-carousel .item img {
     width: 60%; /* Ширина зображення буде 50% від контейнера */
