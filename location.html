@@ -1,47 +1,62 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="uk">
 <head>
+    <!-- Оголошення документа як HTML5 -->
     <meta charset="UTF-8">
+    <!-- Встановлення кодування символів у формат UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Вказівка адаптивного дизайну для мобільних пристроїв -->
     <title>BMW</title>
- 
+    <!-- Заголовок сторінки у вкладці браузера -->
+
+    <!-- Встановлення іконки сторінки -->
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2736/2736918.png" type="image/png">
+    <!-- Підключення стилів CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Підключення іконок Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Підключення стилів Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header start -->
+    <!-- Початок заголовка -->
     <header>
+        <!-- Навігаційна панель -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                 <a class="navbar-brand" href="index.html">
-  <img src="images/sedan.png" alt="Icon Logo" height="30" width="44">
-</a>
+                <!-- Логотип сторінки -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/sedan.png" alt="Icon Logo" height="30" width="44">
+                </a>
+                <!-- Кнопка для мобільного меню -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- Меню навігації -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                       <li class="nav-item"><a class="nav-link" href="index.html">Головна</a></li>
-                     <li class="nav-item"><a class="nav-link" href="gallery.html">Галерея</a></li>
-                     <li class="nav-item"><a class="nav-link" href="location.html">Розташування</a></li>
-                     <li class="nav-item"><a class="nav-link" href="me.html">Про мене</a></li>
+                        <!-- Пункти меню -->
+                        <li class="nav-item"><a class="nav-link" href="index.html">Головна</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Галерея</a></li>
+                        <li class="nav-item"><a class="nav-link" href="location.html">Розташування</a></li>
+                        <li class="nav-item"><a class="nav-link" href="me.html">Про мене</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- Header end -->
+    <!-- Кінець заголовка -->
 
-    <!-- Main content start -->
+    <!-- Основний вміст сторінки -->
     <main class="container">
         <div class="row">
+            <!-- Секція з картою -->
             <div class="col-md-6">
                 <h2>Розташування BMW</h2>
                 <p>Ось карта, де можна знайти нас:</p>
+                <!-- Карта Google Maps -->
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10295.606264611602!2d23.925849007549367!3d49.82551523039712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae74bdaadaf87%3A0x61921d442e01556e!2z0JDQstGC0L7RgdCw0LvQvtC9IEJNVyAi0KXRgNC40YHRgtC40L3QsCI!5e0!3m2!1sru!2sua!4v1732434642847!5m2!1sru!2sua"
+                    src="https://www.google.com/maps/embed?pb=..." 
                     width="100%" 
                     height="450" 
                     style="border:0;" 
@@ -51,10 +66,11 @@
                 </iframe>
             </div>
             <div class="col-md-6">
+                <!-- Панорамний вигляд -->
                 <h2>Панорамна карта</h2>
                 <p>Перегляньте панорамний вигляд нашого розташування:</p>
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!4v1732434890556!6m8!1m7!1sDNHr0igBw1Y1-uHdCsRJJg!2m2!1d49.82567775525264!2d23.9371419735058!3f170.42892469765033!4f0.6420804297264482!5f0.7820865974627469"
+                    src="https://www.google.com/maps/embed?pb=..." 
                     width="100%" 
                     height="450" 
                     style="border:0;" 
@@ -66,11 +82,12 @@
         </div>
         <div class="row mt-4">
             <div class="col text-center">
+                <!-- Відео -->
                 <h2>Подивіться це відео про BMW</h2>
                 <iframe 
                     width="560" 
                     height="315" 
-                    src="https://www.youtube.com/embed/rdMUXsliXv4?si=7uN4Y-OW8ObA6IyK" 
+                    src="https://www.youtube.com/embed/rdMUXsliXv4?si=..." 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -80,10 +97,10 @@
             </div>
         </div>
     </main>
-    <!-- Main content end -->
+    <!-- Кінець основного вмісту -->
 
-    <!-- Footer start -->
-      <footer>
+    <!-- Футер -->
+     <footer>
     <p>&copy; 2024 BMW</p>
     <a href="https://www.bmw.ua/uk/index.html" target="_blank" style="margin-right: 10px; text-decoration: none;" rel="noopener noreferrer">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-browser-chrome" viewBox="0 0 16 16">
@@ -96,10 +113,9 @@
       </svg>
     </a>
   </footer>
-    <!-- Footer end -->
+    <!-- Кінець футера -->
 
-    <!-- Bootstrap JS -->
+    <!-- Підключення JavaScript Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
