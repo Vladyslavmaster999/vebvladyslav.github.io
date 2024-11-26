@@ -218,16 +218,6 @@ input, select, textarea, button {
     overflow-y: hidden; /* Прибирає вертикальну прокрутку */
 }
 
- 
-
-/* Footer Styles */
-footer {
-    background-color: #f3f3f3;
-    color: #666;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-}
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -402,7 +392,15 @@ footer {
 }
 </style>
 
-/* Footer Links */
+/* Footer Styles */
+footer {
+    background-color: #f3f3f3;
+    color: #666;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
 footer a {
     text-decoration: none;
 }
