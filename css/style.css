@@ -73,6 +73,7 @@ h2 {
     font-size: 28px;
 }
 
+/* Стилі для підписки */
 #subscribe {
     text-align: center;
     padding: 30px;
@@ -97,7 +98,6 @@ h2 {
     width: 100%;
 }
 
-/* Feedback and Form Styles */
 .subscribe-form {
     display: flex;
     flex-direction: column;
@@ -113,8 +113,7 @@ h2 {
     gap: 30px;
 }
 
-
-
+/* Стилі для зображень */
 .centered-image {
     max-width: 100%;
     height: auto;
@@ -253,7 +252,6 @@ input, select, textarea, button {
 
 }
 
-/* Card Hover Effects */
 .card {
     transition: box-shadow 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -263,6 +261,7 @@ input, select, textarea, button {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Стилі для баннера*/
 .banner {  
     position: relative;
     max-height: 600px;
@@ -307,6 +306,7 @@ input, select, textarea, button {
     transform: translateY(0);
 }
 
+/* Стилі для таймера*/
 #timer {
     background-color: #fff;
     padding: 20px;
@@ -314,29 +314,29 @@ input, select, textarea, button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
-
+/* Стилі для зворотнього відліку*/
 #countdown {
     font-weight: bold;
     color: #0078d4;
 }
 
-
+/* Стилі для каруселя*/
 .owl-carousel .item img {
-    width: 60%; /* Ширина зображення буде 50% від контейнера */
-    height: auto; /* Автоматичне співвідношення висоти */
-    max-height: 100px; /* Максимальна висота зображення */
-    object-fit: cover; /* Заповнення блоку, збереження пропорцій */
-    border-radius: 10px; /* Заокруглені кути */
-    margin: 0 auto; /* Вирівнювання по центру */
+    width: 60%; 
+    height: auto; 
+    max-height: 100px; 
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto; 
 }
 
 .owl-carousel {
-    max-width: 300px; /* Встановлюємо максимальну ширину каруселі */
-    margin: 0 auto; /* Центруємо карусель */
+    max-width: 300px; 
+    margin: 0 auto; 
 }
 
 
-/* Footer Styles */
+/* Стилі для footer*/
 footer {
     background-color: #f3f3f3;
     color: #666;
