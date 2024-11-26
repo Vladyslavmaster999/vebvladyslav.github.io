@@ -181,23 +181,6 @@ input, select, textarea, button {
   font-family: 'Roboto Condensed', sans-serif !important;
 }
 
-@media (max-width: 768px) {
-    .weather-container {
-        margin: 10px; /* Зменшує зовнішні відступи */
-    }
-}
-
-@media (max-width: 576px) {
-    .weather-container {
-        max-width: 100%; /* Ширина займає весь екран */
-        padding: 10px; /* Менший відступ */
-    }
-
-    .weather-container h3 {
-        font-size: 16px; /* Зменшує розмір заголовка */
-    }
-}
-
 
 /* Погода */
 .meteo-informer {
@@ -273,15 +256,43 @@ footer {
     .services-grid, .gallery-grid {
         grid-template-columns: 1fr;
     }
+    .banner-content {
+        top: 40%; /* Піднімаємо текст вище */
+        transform: translate(-50%, -40%);
+    }
+
+     .owl-carousel,
+  #meteo_informer_8d803d31d1cb665411c9301074b33ed7 {
+    margin-bottom: 20px;
+  }
+    .weather-container {
+        margin: 10px; /* Зменшує зовнішні відступи */
+    }
 }
 
-/* Footer Links */
-footer a {
-    text-decoration: none;
-}
 
-footer a:hover {
-    text-decoration: none;
+@media (max-width: 576px) {
+    .banner-content {
+        top: 35%; /* Ще трохи вище для менших екранів */
+        transform: translate(-50%, -35%);
+    }
+    .banner-content h1 {
+        font-size: 24px; /* Зменшення розміру заголовка на банері */
+    }
+
+    .banner-content p {
+        font-size: 16px; /* Зменшення розміру опису */
+    }
+
+    .weather-container {
+        max-width: 100%; /* Ширина займає весь екран */
+        padding: 10px; /* Менший відступ */
+    }
+
+    .weather-container h3 {
+        font-size: 16px; /* Зменшує розмір заголовка */
+    }
+
 }
 
 /* Card Hover Effects */
@@ -375,14 +386,6 @@ footer a:hover {
     width: 100%;
 }
 
-
-@media (max-width: 768px) {
-  .owl-carousel,
-  #meteo_informer_8d803d31d1cb665411c9301074b33ed7 {
-    margin-bottom: 20px;
-  }
-}
-
 <style>
 .owl-carousel .item img {
     width: 60%; /* Ширина зображення буде 50% від контейнера */
@@ -397,29 +400,13 @@ footer a:hover {
     max-width: 300px; /* Встановлюємо максимальну ширину каруселі */
     margin: 0 auto; /* Центруємо карусель */
 }
-
 </style>
 
-@media (max-width: 768px) {
-    .banner-content {
-        top: 40%; /* Піднімаємо текст вище */
-        transform: translate(-50%, -40%);
-    }
+/* Footer Links */
+footer a {
+    text-decoration: none;
 }
 
-@media (max-width: 576px) {
-    .banner-content {
-        top: 35%; /* Ще трохи вище для менших екранів */
-        transform: translate(-50%, -35%);
-    }
-    .banner-content h1 {
-        font-size: 24px; /* Зменшення розміру заголовка на банері */
-    }
-
-    .banner-content p {
-        font-size: 16px; /* Зменшення розміру опису */
-    }
+footer a:hover {
+    text-decoration: none;
 }
-
-}
-
