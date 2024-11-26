@@ -382,3 +382,17 @@ footer a:hover {
 }
 
 </style>
+
+@media (max-width: 768px) {
+    .banner-content {
+        top: 40%; /* Піднімаємо текст вище */
+        transform: translate(-50%, -40%);
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-content {
+        top: 35%; /* Ще трохи вище для менших екранів */
+        transform: translate(-50%, -35%);
+    }
+}
